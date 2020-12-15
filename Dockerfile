@@ -4,7 +4,7 @@ FROM ubuntu:18.04
 ARG KUBECTL_VERSION=1.18.0
 ARG HELM2_VERSION=2.16.3
 ARG HELM3_VERSION=3.1.0
-ARG K9S_VERSION=0.19.0
+ARG K9S_VERSION=v0.24.2
 
 # Install utilities
 RUN apt-get update -y && apt-get install -y curl jq ca-certificates git vim bash-completion
